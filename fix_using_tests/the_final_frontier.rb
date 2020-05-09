@@ -9,8 +9,6 @@ def state_log(star_date)
 end
 
 def engage
-  #puts date
   date = generate_star_date
   print state_log(date)
 end
-#binding.pry
